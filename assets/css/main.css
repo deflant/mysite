@@ -2223,7 +2223,7 @@
 
 		table th {
 			color: #777;
-			font-size: 0.9em;
+			font-size: 1.0em;
 			font-weight: 700;
 			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
@@ -2600,7 +2600,7 @@
 /* One */
 
 	#one:before {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/header.png");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
