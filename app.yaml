@@ -6,8 +6,25 @@ api_version: 1
 handlers:
 - url: /
   script: index.html
+
 - url: /index\.html
   script: index.html
+
+- url: /assets
+  static_dir: assets
+
+- url: /assets/css
+  static_dir: assets/css
+
+- url: /assets/fonts
+  static_dir: assets/fonts
+
+- url: /assets/js
+  static_dir: assets/js
+
+- url: /assets/sass
+  static_dir: assets/sass
+
 - url: /(.*\.(gif|png|jpg))$
   static_files: images/\1
   upload: images/.*\.(gif|png|jpg)$
